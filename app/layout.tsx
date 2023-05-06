@@ -1,11 +1,12 @@
-import { Inter } from "next/font/google"
+import { Inter } from "next/font/google";
+import "./globals.css";
 
-export const metadat = {
+export const metadata = {
   title: "Airbnb",
-  description: "Airbnb clone"
-}
+  description: "Airbnb clone",
+};
 
-const font = Inter({ subsets: ["latin"] })
+const font = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({ children }) {
   return (
